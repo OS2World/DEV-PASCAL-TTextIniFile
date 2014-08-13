@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE> TextInis Reference Manual </TITLE>
+</HEAD>
+<BODY >
+<A HREF="!welcome.htm">[Contents]</A> <A HREF="$001C14DC.htm">[Parent chapter]</A> [Previous chapter] [Next chapter] <HR>
+<A NAME=#001C17A4><H2>TTextIniFile</H2></A>
+<P>
+The TTextIniFile class implements textual initializationfiles.
+<P>
+
+<P>
+<STRONG>Unit</STRONG><BR>
+<A HREF="TextInis.htm">
+TextInis</A>
+
+<P>
+
+<P>
+<STRONG>Ancestor</STRONG><BR>
+TObject
+<P>
+
+<P>
+<STRONG>Description</STRONG><BR>
+The TTextIniFile class implements textual initializationfiles. The files are fully interface compatible with the onesin the (Delphi) IniFiles unit, but provide some additionalmethods for reading and writing data other than String,Integer, and Boolean. The files do not use any operatingsystem stuff, so they works alike in OS/2 and Windows.<p>The files are divided into sections and identifiers, asusual, but there is one exception: If a file contains asection whose name is the empty string, it is writtenwithout a section heading when the file is created. Thisallows to use the class for 'flat' initialization files,just specify the empty string as section identifier.<p>The class does not change data that is not affected bya writing call, nor does it sort anything. That shouldallow you to use it for most existing text-basedinitialization files, since commentc etc. will not getlost.
+<P>
+
+<P>
+<B>Subordinate chapters</B><BR>
+<A HREF="$001C2144.htm">Properties</A><BR>
+<A HREF="$001C26DC.htm">Methods</A><BR>
+<HR>
+</BODY>
+</HTML>

@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<TITLE> TextInis Reference Manual </TITLE>
+</HEAD>
+<BODY >
+<A HREF="!welcome.htm">[Contents]</A> <A HREF="$001C27DC.htm">[Parent chapter]</A> <A HREF="WriteFloat.htm">[Previous chapter]</A> <A HREF="WriteSectionValues.htm">[Next chapter]</A> <HR>
+<A NAME=#001E1474><H2>WriteInteger</H2></A>
+<P>
+Writes an Integer value to the file.
+<P>
+
+<P>
+<STRONG>Class</STRONG><BR>
+<A HREF="TTextIniFile.htm">
+TTextIniFile</A>
+
+<P>
+
+<P>
+<STRONG>Declaration</STRONG>
+<P>
+
+<PRE>
+procedure WriteInteger(const Section, Ident: string; 
+                                   Value: LongInt);
+
+<P>
+</PRE>
+<P>
+
+<P>
+<STRONG>Visibility</STRONG><BR>
+public
+<P>
+
+<P>
+<STRONG>Description</STRONG><BR>
+Writes an Integer value to the file. If the destinationsection does not exist, it is created. If a value withthe given identifier already exists, it is overwritten.<P><B>See</B><BR><A HREF="ReadInteger.htm">
+ReadInteger</A>
+
+<P>
+
+<P><HR>
+</BODY>
+</HTML>

@@ -1,0 +1,165 @@
+<HTML>
+<HEAD>
+<TITLE> TextInis Reference Manual </TITLE>
+</HEAD>
+<BODY >
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+	      <param name="Name" value="TextInis Units">
+	      <param name="Local" value="$001C0A6C.htm">
+	      </OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="TextInis">
+		      <param name="Local" value="TextInis.htm">
+		      </OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+			      <param name="Name" value="Classes">
+			      <param name="Local" value="$001C1124.htm">
+			      </OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+	      <param name="Name" value="TextInis Classes">
+	      <param name="Local" value="$001C14DC.htm">
+	      </OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="TTextIniFile">
+		      <param name="Local" value="TTextIniFile.htm">
+		      </OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+			      <param name="Name" value="Properties">
+			      <param name="Local" value="$001C2144.htm">
+			      </OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+			      <param name="Name" value="Methods">
+			      <param name="Local" value="$001C26DC.htm">
+			      </OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+	      <param name="Name" value="TextInis Methods">
+	      <param name="Local" value="$001C27DC.htm">
+	      </OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="Create">
+		      <param name="Local" value="Create.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="DeleteKey">
+		      <param name="Local" value="DeleteKey.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="Destroy">
+		      <param name="Local" value="Destroy.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="EraseSection">
+		      <param name="Local" value="EraseSection.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="ReadBinary">
+		      <param name="Local" value="ReadBinary.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="ReadBool">
+		      <param name="Local" value="ReadBool.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="ReadChar">
+		      <param name="Local" value="ReadChar.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="ReadCurrency">
+		      <param name="Local" value="ReadCurrency.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="ReadDateTime">
+		      <param name="Local" value="ReadDateTime.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="ReadFloat">
+		      <param name="Local" value="ReadFloat.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="ReadInteger">
+		      <param name="Local" value="ReadInteger.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="ReadSection">
+		      <param name="Local" value="ReadSection.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="ReadSections">
+		      <param name="Local" value="ReadSections.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="ReadSectionValues">
+		      <param name="Local" value="ReadSectionValues.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="ReadString">
+		      <param name="Local" value="ReadString.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="WriteBinary">
+		      <param name="Local" value="WriteBinary.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="WriteBool">
+		      <param name="Local" value="WriteBool.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="WriteChar">
+		      <param name="Local" value="WriteChar.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="WriteCurrency">
+		      <param name="Local" value="WriteCurrency.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="WriteDateTime">
+		      <param name="Local" value="WriteDateTime.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="WriteFloat">
+		      <param name="Local" value="WriteFloat.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="WriteInteger">
+		      <param name="Local" value="WriteInteger.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="WriteSectionValues">
+		      <param name="Local" value="WriteSectionValues.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="WriteString">
+		      <param name="Local" value="WriteString.htm">
+		      </OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+	      <param name="Name" value="TextInis Properties">
+	      <param name="Local" value="$002110D4.htm">
+	      </OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="FileName">
+		      <param name="Local" value="FileName.htm">
+		      </OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+		      <param name="Name" value="Modified">
+		      <param name="Local" value="Modified.htm">
+		      </OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+	      <param name="Name" value="TextInis duplicate identifiers">
+	      <param name="Local" value="$001E3EAC.htm">
+	      </OBJECT>
+</UL>
+</BODY>
+</HTML>

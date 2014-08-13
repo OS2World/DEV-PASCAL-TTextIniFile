@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+<TITLE> TextInis Reference Manual </TITLE>
+</HEAD>
+<BODY >
+<A HREF="!welcome.htm">[Contents]</A> <A HREF="$001C27DC.htm">[Parent chapter]</A> <A HREF="EraseSection.htm">[Previous chapter]</A> <A HREF="ReadBool.htm">[Next chapter]</A> <HR>
+<A NAME=#001B09C4><H2>ReadBinary</H2></A>
+<P>
+Reads binary data from the file.
+<P>
+
+<P>
+<STRONG>Class</STRONG><BR>
+<A HREF="TTextIniFile.htm">
+TTextIniFile</A>
+
+<P>
+
+<P>
+<STRONG>Declaration</STRONG>
+<P>
+
+<PRE>
+function ReadBinary(const Section, Ident: string; 
+                                Buffer: Pointer; 
+                                Count: LongInt): LongInt;
+
+<P>
+</PRE>
+<P>
+
+<P>
+<STRONG>Visibility</STRONG><BR>
+public
+<P>
+
+<P>
+<STRONG>Description</STRONG><BR>
+Reads binary data from the file. A maximum of Count bytes is read andwritten to the given buffer. The function returns the number ofbytes actually contained in the desired identifier, that is, thebuffer size needed for reading all data. If either the given sectionor the given identifier does not exist, 0 is returned. If aconversion error occurs (since the function expects hex-coded,comma-separated values), -1 is returned.<P><B>See</B><BR><A HREF="WriteBinary.htm">
+WriteBinary</A>
+
+<P>
+
+<P><HR>
+</BODY>
+</HTML>

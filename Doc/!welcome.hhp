@@ -1,0 +1,16 @@
+[OPTIONS]
+Binary Index=No
+Compatibility=1.1
+Compiled file=!welcome.chm
+Contents file=!welcome.hhc
+Default Window=Welcome
+Default topic=!welcome.htm
+Display compile progress=No
+Language=0x407 Deutsch (Deutschland)
+Title=TextInis Reference Manual
+
+[WINDOWS]
+Welcome="Welcome","!welcome.hhc",,"!welcome.htm","!welcome.htm",,,,,0x2120,,0x304e,,,,,0,,,
+
+[FILES]
+!welcome.htm

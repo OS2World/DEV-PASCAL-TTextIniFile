@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<TITLE> TextInis Reference Manual </TITLE>
+</HEAD>
+<BODY >
+<A HREF="!welcome.htm">[Contents]</A> <A HREF="$001C27DC.htm">[Parent chapter]</A> <A HREF="ReadChar.htm">[Previous chapter]</A> <A HREF="ReadDateTime.htm">[Next chapter]</A> <HR>
+<A NAME=#001D0E4C><H2>ReadCurrency</H2></A>
+<P>
+Reads an Currency value from the file.
+<P>
+
+<P>
+<STRONG>Class</STRONG><BR>
+<A HREF="TTextIniFile.htm">
+TTextIniFile</A>
+
+<P>
+
+<P>
+<STRONG>Declaration</STRONG>
+<P>
+
+<PRE>
+function ReadCurrency(const Section, Ident: string; 
+                                  const Default: Currency): Currency;
+
+<P>
+</PRE>
+<P>
+
+<P>
+<STRONG>Visibility</STRONG><BR>
+public
+<P>
+
+<P>
+<STRONG>Description</STRONG><BR>
+Reads an Currency value from the file. If either the given sectionor the given identifier does not exist, or the value cannot beconverted to Currency, the default value is returned instead.<P><B>See</B><BR><A HREF="WriteCurrency.htm">
+WriteCurrency</A>
+
+<P>
+
+<P><HR>
+</BODY>
+</HTML>

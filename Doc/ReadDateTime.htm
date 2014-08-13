@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<TITLE> TextInis Reference Manual </TITLE>
+</HEAD>
+<BODY >
+<A HREF="!welcome.htm">[Contents]</A> <A HREF="$001C27DC.htm">[Parent chapter]</A> <A HREF="ReadCurrency.htm">[Previous chapter]</A> <A HREF="ReadFloat.htm">[Next chapter]</A> <HR>
+<A NAME=#001B1B34><H2>ReadDateTime</H2></A>
+<P>
+Reads an date-and-time value from the file.
+<P>
+
+<P>
+<STRONG>Class</STRONG><BR>
+<A HREF="TTextIniFile.htm">
+TTextIniFile</A>
+
+<P>
+
+<P>
+<STRONG>Declaration</STRONG>
+<P>
+
+<PRE>
+function ReadDateTime(const Section, Ident: string; 
+                                  const Default: TDateTime): TDateTime;
+
+<P>
+</PRE>
+<P>
+
+<P>
+<STRONG>Visibility</STRONG><BR>
+public
+<P>
+
+<P>
+<STRONG>Description</STRONG><BR>
+Reads an date-and-time value from the file. If either thegiven section or the given identifier does not exist, orthe value cannot be converted to TDateTime, the defaultvalue is returned instead.<P><B>See</B><BR><A HREF="WriteDateTime.htm">
+WriteDateTime</A>
+
+<P>
+
+<P><HR>
+</BODY>
+</HTML>

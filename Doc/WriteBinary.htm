@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+<TITLE> TextInis Reference Manual </TITLE>
+</HEAD>
+<BODY >
+<A HREF="!welcome.htm">[Contents]</A> <A HREF="$001C27DC.htm">[Parent chapter]</A> <A HREF="ReadString.htm">[Previous chapter]</A> <A HREF="WriteBool.htm">[Next chapter]</A> <HR>
+<A NAME=#002100AC><H2>WriteBinary</H2></A>
+<P>
+Writes binary data to the file.
+<P>
+
+<P>
+<STRONG>Class</STRONG><BR>
+<A HREF="TTextIniFile.htm">
+TTextIniFile</A>
+
+<P>
+
+<P>
+<STRONG>Declaration</STRONG>
+<P>
+
+<PRE>
+procedure WriteBinary(const Section, Ident: string; 
+                                  Buffer: Pointer; 
+                                  Count: LongInt);
+
+<P>
+</PRE>
+<P>
+
+<P>
+<STRONG>Visibility</STRONG><BR>
+public
+<P>
+
+<P>
+<STRONG>Description</STRONG><BR>
+Writes binary data to the file. The data is taken from the givenBuffer, with Count specifying the number of bytes to write. Thebytes are written as a hex-coded, comma-separated list of values.If the destination section does not exist, it is created. If avalue with the given identifier already exists, it is overwritten.<P><B>See</B><BR><A HREF="ReadBinary.htm">
+ReadBinary</A>
+
+<P>
+
+<P><HR>
+</BODY>
+</HTML>
